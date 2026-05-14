@@ -270,8 +270,6 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 | `11` | November |
 | `12` | December |
 
----
-
 ### 4. `sex`
 
 | Code | Description |
