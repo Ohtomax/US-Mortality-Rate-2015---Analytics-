@@ -232,6 +232,173 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 
 4. **Creating dimension tables** — Separate tables were created for each categorical column, since columns contained numerical codes representing specific values. Duplicates were removed from each created table.
 
+| Code | Description |
+|---|---|
+| `1` | **RESIDENTS** — State and County of Occurrence and Residence are the same |
+| `2` | **INTRASTATE NONRESIDENTS** — State of Occurrence and Residence are the same, but County is different |
+| `3` | **INTERSTATE NONRESIDENTS** — State of Occurrence and Residence are different, but both are in the U.S. |
+| `4` | **FOREIGN RESIDENTS** — State of Occurrence is one of the 50 States or D.C., but Residence is outside of the U.S. |
+
+---
+
+### 2. `education_2003_revision`
+
+| Code | Description |
+|---|---|
+| `1` | 8th grade or less |
+| `2` | 9–12th grade, no diploma |
+| `3` | High school graduate or GED completed |
+| `4` | Some college credit, but no degree |
+| `5` | Associate degree (e.g., AA, AS) |
+| `6` | Bachelor's degree (e.g., BA, AB, BS) |
+| `7` | Master's degree (e.g., MA, MS, MEng, MEd, MSW, MBA) |
+| `8` | Doctorate (e.g., PhD, EdD) or Professional degree (e.g., MD, DDS, DVM, LLB, JD) |
+| `9` | Unknown |
+
+---
+
+### 3. `month_of_death`
+
+| Code | Month |
+|---|---|
+| `01` | January |
+| `02` | February |
+| `03` | March |
+| `04` | April |
+| `05` | May |
+| `06` | June |
+| `07` | July |
+| `08` | August |
+| `09` | September |
+| `10` | October |
+| `11` | November |
+| `12` | December |
+
+---
+
+### 4. `sex`
+
+| Code | Description |
+|---|---|
+| `M` | Male |
+| `F` | Female |
+
+---
+
+### 5. `age_recode_12`
+
+| Code | Age Group |
+|---|---|
+| `01` | Under 1 year (includes all infant deaths) |
+| `02` | 1–4 years |
+| `03` | 5–14 years |
+| `04` | 15–24 years |
+| `05` | 25–34 years |
+| `06` | 35–44 years |
+| `07` | 45–54 years |
+| `08` | 55–64 years |
+| `09` | 65–74 years |
+| `10` | 75–84 years |
+| `11` | 85 years and over |
+| `12` | Age not stated |
+
+---
+
+### 6. `marital_status`
+
+| Code | Description |
+|---|---|
+| `S` | Never married, single |
+| `M` | Married |
+| `W` | Widowed |
+| `D` | Divorced |
+| `U` | Marital status unknown |
+
+---
+
+### 7. `day_of_week_of_death`
+
+| Code | Day |
+|---|---|
+| `1` | Sunday |
+| `2` | Monday |
+| `3` | Tuesday |
+| `4` | Wednesday |
+| `5` | Thursday |
+| `6` | Friday |
+| `7` | Saturday |
+| `9` | Unknown |
+
+---
+
+### 8. `manner_of_death`
+
+| Code | Description |
+|---|---|
+| `1` | Natural |
+| `2` | Accident |
+| `3` | Suicide |
+| `4` | Homicide |
+| `5` | Pending investigation |
+| `6` | Could not be determined |
+| `7` | Self-Inflicted *(used in specific jurisdictions)* |
+
+---
+
+### 9. `113_cause_recode` — Categorized
+
+| Code Range | Category |
+|---|---|
+| `001–018` | Infectious and parasitic diseases (includes Septicemia, HIV, Tuberculosis) |
+| `019–044` | Neoplasms (019–043: Malignant/Cancer; 044: Benign) |
+| `045` | Anemias |
+| `046` | Diabetes mellitus |
+| `047–049` | Nutritional deficiencies (includes Malnutrition) |
+| `050–052` | Diseases of the nervous system (052: Alzheimer's; 051: Parkinson's) |
+| `053–075` | Major cardiovascular diseases |
+| `076–089` | Diseases of the respiratory system |
+| `090–096` | Diseases of the digestive system (includes 093–095: Chronic liver disease & cirrhosis) |
+| `097–104` | Diseases of the genitourinary system (includes 097–102: Kidney diseases/Nephritis) |
+| `105–110` | Pregnancy, perinatal, congenital conditions, and abnormal clinical findings |
+| `111` | All other diseases (Residual) |
+| `112–135` | External causes of mortality |
+
+---
+
+### 10. `race`
+
+| Code | Race |
+|---|---|
+| `01` | White |
+| `02` | Black |
+| `03` | American Indian (includes Aleuts and Eskimos) |
+| `04` | Chinese |
+| `05` | Japanese |
+| `06` | Hawaiian (includes Part-Hawaiian) |
+| `07` | Filipino |
+| `18` | Asian Indian |
+| `28` | Korean |
+| `38` | Samoan |
+| `48` | Vietnamese |
+| `58` | Guamanian |
+| `68` | Other Asian or Pacific Islander |
+| `78` | Combined other Asian or Pacific Islander |
+
+---
+
+### 11. `place_of_death_and_decedent_status`
+
+| Code | Description |
+|---|---|
+| `1` | Hospital, Clinic or Medical Center — Inpatient |
+| `2` | Hospital, Clinic or Medical Center — Outpatient or admitted to Emergency Dept. |
+| `3` | Hospital, Clinic or Medical Center — Dead on Arrival |
+| `4` | Decedent's home |
+| `5` | Hospice facility |
+| `6` | Nursing home / Long term care facility |
+| `7` | Other |
+| `9` | Place of death unknown |
+
 ---
 
 ## Issues Log
