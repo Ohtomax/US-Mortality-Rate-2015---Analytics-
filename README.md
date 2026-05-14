@@ -218,7 +218,8 @@ The dataset contains **77 columns** and **2.7 million rows**.
 <image src="image1.png">
 
 2. **Replacing null values in `manner_of_death`** — Since in the CDC's original source code a blank entry means "not specified," the analyst added a new primary key `9 = Not Specified` for the `manner_of_death` table and used it to replace all null values. Similarly, null values in `education_2003_revision` were replaced with `9 = Unknown`.
-
+<image src="image2.png">
+<image src="image3.png">
 ---
 
 ### Evaluate Unsolvable Issues
@@ -230,7 +231,7 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 ### Augment the Data
 
 3. **Adding a unique ID** — After replacing null values, a `unique_id` column was added to the fact table.
-
+<image src="image4.png">
 4. **Creating dimension tables** — Separate tables were created for each categorical column, since columns contained numerical codes representing specific values. Duplicates were removed from each created table.
 
 | Code | Description |
