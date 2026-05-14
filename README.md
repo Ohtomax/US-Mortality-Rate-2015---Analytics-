@@ -239,8 +239,6 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 | `3` | **INTERSTATE NONRESIDENTS** — State of Occurrence and Residence are different, but both are in the U.S. |
 | `4` | **FOREIGN RESIDENTS** — State of Occurrence is one of the 50 States or D.C., but Residence is outside of the U.S. |
 
----
-
 ### 2. `education_2003_revision`
 
 | Code | Description |
@@ -254,8 +252,6 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 | `7` | Master's degree (e.g., MA, MS, MEng, MEd, MSW, MBA) |
 | `8` | Doctorate (e.g., PhD, EdD) or Professional degree (e.g., MD, DDS, DVM, LLB, JD) |
 | `9` | Unknown |
-
----
 
 ### 3. `month_of_death`
 
@@ -283,8 +279,6 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 | `M` | Male |
 | `F` | Female |
 
----
-
 ### 5. `age_recode_12`
 
 | Code | Age Group |
@@ -302,8 +296,6 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 | `11` | 85 years and over |
 | `12` | Age not stated |
 
----
-
 ### 6. `marital_status`
 
 | Code | Description |
@@ -313,8 +305,6 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 | `W` | Widowed |
 | `D` | Divorced |
 | `U` | Marital status unknown |
-
----
 
 ### 7. `day_of_week_of_death`
 
@@ -329,8 +319,6 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 | `7` | Saturday |
 | `9` | Unknown |
 
----
-
 ### 8. `manner_of_death`
 
 | Code | Description |
@@ -343,27 +331,145 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 | `6` | Could not be determined |
 | `7` | Self-Inflicted *(used in specific jurisdictions)* |
 
----
-
 ### 9. `113_cause_recode` — Categorized
 
-| Code Range | Category |
-|---|---|
-| `001–018` | Infectious and parasitic diseases (includes Septicemia, HIV, Tuberculosis) |
-| `019–044` | Neoplasms (019–043: Malignant/Cancer; 044: Benign) |
-| `045` | Anemias |
-| `046` | Diabetes mellitus |
-| `047–049` | Nutritional deficiencies (includes Malnutrition) |
-| `050–052` | Diseases of the nervous system (052: Alzheimer's; 051: Parkinson's) |
-| `053–075` | Major cardiovascular diseases |
-| `076–089` | Diseases of the respiratory system |
-| `090–096` | Diseases of the digestive system (includes 093–095: Chronic liver disease & cirrhosis) |
-| `097–104` | Diseases of the genitourinary system (includes 097–102: Kidney diseases/Nephritis) |
-| `105–110` | Pregnancy, perinatal, congenital conditions, and abnormal clinical findings |
-| `111` | All other diseases (Residual) |
-| `112–135` | External causes of mortality |
-
----
+| 113_cause_recode | Description |
+| :--- | :--- |
+| 1 | Salmonella i |
+| 2 | Shigellosis a |
+| 3 | Certain othe |
+| 4 | Tuberculosi |
+| 5 | Respiratory |
+| 6 | Other tuberc |
+| 7 | Whooping c |
+| 8 | Scarlet feve |
+| 9 | Meningococ |
+| 10 | Septicemia |
+| 11 | Syphilis (A50 |
+| 12 | Acute poliom |
+| 13 | Arthropod-b |
+| 14 | Measles (B0 |
+| 15 | Viral hepatit |
+| 16 | Human imm |
+| 17 | Malaria (B50 |
+| 18 | Other and un |
+| 19 | Malignant ne |
+| 20 | Malignant ne |
+| 21 | Malignant ne |
+| 22 | Malignant ne |
+| 23 | Malignant ne |
+| 24 | Malignant ne |
+| 25 | Malignant ne |
+| 26 | Malignant ne |
+| 27 | Malignant ne |
+| 28 | Malignant m |
+| 29 | Malignant ne |
+| 30 | Malignant ne |
+| 31 | Malignant ne |
+| 32 | Malignant ne |
+| 33 | Malignant ne |
+| 34 | Malignant ne |
+| 35 | Malignant ne |
+| 36 | Malignant ne |
+| 37 | Malignant ne |
+| 38 | Hodgkin's di |
+| 39 | Non-Hodgki |
+| 40 | Leukemia (C |
+| 41 | Multiple mye |
+| 42 | Other and un |
+| 43 | All other and |
+| 44 | In situ neopl |
+| 45 | Anemias (D5 |
+| 46 | Diabetes me |
+| 47 | Nutritional d |
+| 48 | Malnutrition |
+| 49 | Other nutriti |
+| 50 | Meningitis ( |
+| 51 | Parkinson's |
+| 52 | Alzheimer's |
+| 53 | Major cardio |
+| 54 | Diseases of |
+| 55 | Acute rheum |
+| 56 | Hypertensiv |
+| 57 | Hypertensiv |
+| 58 | Ischemic he |
+| 59 | Acute myoc |
+| 60 | Other acute |
+| 61 | Other forms |
+| 62 | Atheroscler |
+| 63 | All other form |
+| 64 | Other heart |
+| 65 | Acute and s |
+| 66 | Diseases of |
+| 67 | Heart failure |
+| 68 | All other form |
+| 69 | Essential (pr |
+| 70 | Cerebrovasc |
+| 71 | Atheroscler |
+| 72 | Other diseas |
+| 73 | Aortic aneur |
+| 74 | Other diseas |
+| 75 | Other disord |
+| 76 | Influenza an |
+| 77 | Influenza (J0 |
+| 78 | Pneumonia |
+| 79 | Other acute |
+| 80 | Acute bronc |
+| 81 | Other and un |
+| 82 | Chronic low |
+| 83 | Bronchitis, c |
+| 84 | Emphysema |
+| 85 | Asthma (J45 |
+| 86 | Other chron |
+| 87 | Pneumocon |
+| 88 | Pneumoniti |
+| 89 | Other diseas |
+| 90 | Peptic ulcer |
+| 91 | Diseases of |
+| 92 | Hernia (K40 |
+| 93 | Chronic live |
+| 94 | Alcoholic liv |
+| 95 | Other chron |
+| 96 | Cholelithias |
+| 97 | Nephritis, n |
+| 98 | Acute and ra |
+| 99 | Chronic glor |
+| 100 | Renal failure |
+| 101 | Other disord |
+| 102 | Infections of |
+| 103 | Hyperplasia |
+| 104 | Inflammator |
+| 105 | Pregnancy, |
+| 106 | Pregnancy w |
+| 107 | Other comp |
+| 108 | Certain con |
+| 109 | Congenital m |
+| 110 | Symptoms, |
+| 111 | All other dis |
+| 112 | Accidents (u |
+| 113 | Transport ac |
+| 114 | Motor vehic |
+| 115 | Other land t |
+| 116 | Water, air an |
+| 117 | Nontranspo |
+| 118 | Falls (W00-W |
+| 119 | Accidental d |
+| 120 | Accidental d |
+| 121 | Accidental e |
+| 122 | Accidental p |
+| 123 | Other and un |
+| 124 | Intentional s |
+| 125 | Intentional s |
+| 126 | Intentional s |
+| 127 | Assault (hom |
+| 128 | Assault (hom |
+| 129 | Assault (hom |
+| 130 | Legal interve |
+| 131 | Events of un |
+| 132 | Discharge o |
+| 133 | Other and un |
+| 134 | Operations o |
+| 135 | Complicatio |
 
 ### 10. `race`
 
@@ -384,8 +490,6 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 | `68` | Other Asian or Pacific Islander |
 | `78` | Combined other Asian or Pacific Islander |
 
----
-
 ### 11. `place_of_death_and_decedent_status`
 
 | Code | Description |
@@ -399,8 +503,6 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 | `7` | Other |
 | `9` | Place of death unknown |
 
----
-
 ## Issues Log
 
 | Column(s) Affected | Issue Description | Magnitude | Solvable | Resolution |
@@ -410,8 +512,6 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 | Fact table | No primary key to uniquely identify each row | 100% of rows | ✅ Yes | Added a new unique ID column |
 | `education_2003_revision` | Null values present | 2.43% of rows | ✅ Yes | Replaced null values with `9 = Unknown` |
 | Categorical columns | Numerical values need mapping to categorical meanings | 11 columns | ✅ Yes | Added descriptions to each corresponding categorical column |
-
----
 
 ## Exploratory Data Analysis (EDA)
 
