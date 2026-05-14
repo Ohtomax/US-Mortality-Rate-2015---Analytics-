@@ -215,6 +215,7 @@ The dataset contains **77 columns** and **2.7 million rows**.
 
 1. **Duplicating raw dataset and removing unnecessary columns** — The analyst duplicated the raw dataset and removed columns not needed in the analysis. Each column was also checked for missing or null values. Upon checking, `manner_of_death` and `education_2003_revision` were the only columns with null values.
 
+<image src="image1.png">
 
 2. **Replacing null values in `manner_of_death`** — Since in the CDC's original source code a blank entry means "not specified," the analyst added a new primary key `9 = Not Specified` for the `manner_of_death` table and used it to replace all null values. Similarly, null values in `education_2003_revision` were replaced with `9 = Unknown`.
 
