@@ -508,6 +508,9 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 | `7` | Other |
 | `9` | Place of death unknown |
 
+---
+
+### Note and document
 ## Issues Log
 
 | Column(s) Affected | Issue Description | Magnitude | Solvable | Resolution |
@@ -517,6 +520,8 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 | Fact table | No primary key to uniquely identify each row | 100% of rows | ✅ Yes | Added a new unique ID column |
 | `education_2003_revision` | Null values present | 2.43% of rows | ✅ Yes | Replaced null values with `9 = Unknown` |
 | Categorical columns | Numerical values need mapping to categorical meanings | 11 columns | ✅ Yes | Added descriptions to each corresponding categorical column |
+
+---
 
 ## Exploratory Data Analysis (EDA)
 
