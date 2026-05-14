@@ -527,3 +527,6 @@ A clear temporal trend emerges with mortality peaking during **January** and **D
 
 ### 5. Optimizing the Center of Care
 The majority of deaths occur in **clinical settings**, specifically hospital inpatient facilities, with state residents comprising the largest portion of cases. Improving operational efficiency, patient monitoring, and overall accessibility is vital to managing these high patient volumes. Additionally, expanding **outpatient community healthcare** and early intervention programs could divert high-risk patients, reducing the burden of critical, late-stage hospital admissions.
+
+
+### CSV File - https://drive.google.com/drive/folders/17h8-FiHdMFRS1kvdC81et0m0W8YxuW1V?usp=sharing
