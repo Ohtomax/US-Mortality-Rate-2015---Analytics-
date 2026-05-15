@@ -141,15 +141,16 @@ The dataset contains **77 columns** and **2.7 million rows**.
 
 ### 8. `manner_of_death`
 
-| Code | Description |
-|---|---|
-| `1` | Natural |
-| `2` | Accident |
-| `3` | Suicide |
-| `4` | Homicide |
-| `5` | Pending investigation |
-| `6` | Could not be determined |
-| `7` | Self-Inflicted *(used in specific jurisdictions)* |
+| manner_of_death_id | Manner of Death |
+| :--- | :--- |
+| 1 | Accident |
+| 2 | Suicide |
+| 3 | Homicide |
+| 4 | Pending investigation |
+| 5 | Could not determine |
+| 6 | Self-Inflicted |
+| 7 | Natural |
+| 9 | Not specified |
 
 ---
 
@@ -326,15 +327,16 @@ A comprehensive analysis of the current dataset indicates that all anomalies and
 
 ### 8. `manner_of_death`
 
-| Code | Description |
-|---|---|
-| `1` | Natural |
-| `2` | Accident |
-| `3` | Suicide |
-| `4` | Homicide |
-| `5` | Pending investigation |
-| `6` | Could not be determined |
-| `7` | Self-Inflicted *(used in specific jurisdictions)* |
+| manner_of_death_id | Manner of Death |
+| :--- | :--- |
+| 1 | Accident |
+| 2 | Suicide |
+| 3 | Homicide |
+| 4 | Pending investigation |
+| 5 | Could not determine |
+| 6 | Self-Inflicted |
+| 7 | Natural |
+| 9 | Not specified |
 
 ### 9. `113_cause_recode` — Categorized
 
